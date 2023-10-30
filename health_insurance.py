@@ -8,7 +8,7 @@ bills increase.
 
 Running the script (more arguments available, see --help):
     
-    python health_insurance.py 10000 < plans.csv
+    python health_insurance.py --tax 0.22 10000 < plans.csv
 
 Accepts as input a csv file in the following format:
 
